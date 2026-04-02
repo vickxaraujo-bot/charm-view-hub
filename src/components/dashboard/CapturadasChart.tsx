@@ -43,13 +43,13 @@ const CapturadasChart = () => (
     <CardContent>
       <ResponsiveContainer width="100%" height={280}>
         <ComposedChart data={data} margin={{ top: 10, right: 10, left: -10, bottom: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="hsl(220 15% 18%)" />
-          <XAxis dataKey="mes" tick={{ fill: "hsl(220 10% 55%)", fontSize: 11 }} axisLine={{ stroke: "hsl(220 15% 18%)" }} />
-          <YAxis tick={{ fill: "hsl(220 10% 55%)", fontSize: 11 }} axisLine={{ stroke: "hsl(220 15% 18%)" }} />
+          <CartesianGrid strokeDasharray="3 3" stroke="hsl(195 25% 20%)" />
+          <XAxis dataKey="mes" tick={{ fill: "hsl(195 15% 55%)", fontSize: 11 }} axisLine={{ stroke: "hsl(195 25% 20%)" }} />
+          <YAxis tick={{ fill: "hsl(195 15% 55%)", fontSize: 11 }} axisLine={{ stroke: "hsl(195 25% 20%)" }} />
           <Tooltip content={<CustomTooltip />} />
           <Legend wrapperStyle={{ fontSize: 11 }} />
-          <Bar dataKey="real" name="Real" fill="hsl(0 85% 50%)" radius={[4, 4, 0, 0]} />
-          <Line dataKey="meta" name="Meta" stroke="hsl(38 92% 50%)" strokeWidth={2} dot={{ r: 3, fill: "hsl(38 92% 50%)" }} />
+          <Bar dataKey="real" name="Real" fill="hsl(175 100% 31%)" radius={[4, 4, 0, 0]} />
+          <Line dataKey="meta" name="Meta" stroke="hsl(105 62% 53%)" strokeWidth={2} dot={{ r: 3, fill: "hsl(105 62% 53%)" }} />
         </ComposedChart>
       </ResponsiveContainer>
     </CardContent>
