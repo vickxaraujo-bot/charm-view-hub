@@ -6,46 +6,46 @@
 
 @layer base {
   :root {
-    --background: 220 20% 7%;
+    --background: 195 40% 10%;
     --foreground: 0 0% 95%;
 
-    --card: 220 18% 10%;
+    --card: 195 35% 13%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 220 18% 10%;
+    --popover: 195 35% 13%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 0 85% 50%;
+    --primary: 175 100% 31%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 15% 15%;
+    --secondary: 195 30% 18%;
     --secondary-foreground: 0 0% 90%;
 
-    --muted: 220 15% 15%;
-    --muted-foreground: 220 10% 55%;
+    --muted: 195 30% 18%;
+    --muted-foreground: 195 15% 55%;
 
-    --accent: 0 85% 50%;
+    --accent: 205 72% 30%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 15% 18%;
-    --input: 220 15% 18%;
-    --ring: 0 85% 50%;
+    --border: 195 25% 20%;
+    --input: 195 25% 20%;
+    --ring: 175 100% 31%;
 
     --radius: 0.75rem;
 
-    --sidebar-background: 220 20% 7%;
+    --sidebar-background: 195 40% 10%;
     --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 0 85% 50%;
+    --sidebar-primary: 175 100% 31%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 220 15% 15%;
+    --sidebar-accent: 195 30% 18%;
     --sidebar-accent-foreground: 0 0% 95%;
-    --sidebar-border: 220 15% 18%;
-    --sidebar-ring: 0 85% 50%;
+    --sidebar-border: 195 25% 20%;
+    --sidebar-ring: 175 100% 31%;
 
-    --success: 145 60% 45%;
+    --success: 105 62% 53%;
     --success-foreground: 0 0% 100%;
     --warning: 38 92% 50%;
     --warning-foreground: 0 0% 100%;
@@ -53,8 +53,8 @@
     --font-display: 'Space Grotesk', sans-serif;
     --font-body: 'Inter', sans-serif;
 
-    --glow-primary: 0 0 20px hsl(0 85% 50% / 0.3);
-    --glow-card: 0 0 30px hsl(0 85% 50% / 0.08);
+    --glow-primary: 0 0 20px hsl(175 100% 31% / 0.3);
+    --glow-card: 0 0 30px hsl(175 100% 31% / 0.08);
   }
 }
 
