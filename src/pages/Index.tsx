@@ -3,6 +3,9 @@ import KPICard from "@/components/dashboard/KPICard";
 import CapturadasChart from "@/components/dashboard/CapturadasChart";
 import ImplementadasChart from "@/components/dashboard/ImplementadasChart";
 import DataTable from "@/components/dashboard/DataTable";
+import logoAlcoa from "@/assets/logo-alcoa.png";
+import logoAtitude from "@/assets/logo-atitude.png";
+import logoInovAlcoa from "@/assets/logo-inovalcoa-icon.png";
 
 const capturadasData = [
   { mes: "Jan", real: 19, meta: 17, diferenca: 2 },
@@ -37,8 +40,16 @@ const implementadasData = [
 const Index = () => {
   return (
     <div className="min-h-screen bg-background p-4 md:p-8">
-      {/* Header */}
+      {/* Header with Logos */}
       <div className="mb-8">
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center gap-4">
+            <img src={logoAlcoa} alt="Alcoa" className="h-10 md:h-12 object-contain brightness-0 invert" />
+            <div className="h-8 w-px bg-border" />
+            <img src={logoInovAlcoa} alt="InovAlcoa" className="h-8 md:h-10 object-contain" />
+          </div>
+          <img src={logoAtitude} alt="Programa Atitude" className="h-8 md:h-10 object-contain" />
+        </div>
         <div className="flex items-center gap-3 mb-1">
           <div className="h-8 w-1 rounded-full bg-primary" />
           <h1 className="text-2xl md:text-3xl font-bold font-display text-foreground tracking-tight">
