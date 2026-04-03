@@ -43,9 +43,9 @@ const CapturadasChart = () => (
     <CardContent>
       <ResponsiveContainer width="100%" height={280}>
         <ComposedChart data={data} margin={{ top: 10, right: 10, left: -10, bottom: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="hsl(195 25% 20%)" />
-          <XAxis dataKey="mes" tick={{ fill: "hsl(195 15% 55%)", fontSize: 11 }} axisLine={{ stroke: "hsl(195 25% 20%)" }} />
-          <YAxis tick={{ fill: "hsl(195 15% 55%)", fontSize: 11 }} axisLine={{ stroke: "hsl(195 25% 20%)" }} />
+          <CartesianGrid strokeDasharray="3 3" stroke="hsl(215 30% 22%)" />
+          <XAxis dataKey="mes" tick={{ fill: "hsl(215 20% 55%)", fontSize: 11 }} axisLine={{ stroke: "hsl(215 30% 22%)" }} />
+          <YAxis tick={{ fill: "hsl(215 20% 55%)", fontSize: 11 }} axisLine={{ stroke: "hsl(215 30% 22%)" }} />
           <Tooltip content={<CustomTooltip />} />
           <Legend wrapperStyle={{ fontSize: 11 }} />
           <Bar dataKey="real" name="Real" fill="hsl(175 100% 31%)" radius={[4, 4, 0, 0]} />
